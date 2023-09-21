@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&family=Staatliches&display=swap');
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #343434;
+}
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: #435334;
+    border-bottom: solid #343434 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 50%;
+    height: 8vh;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    color: #343434;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem;
+    font-family: 'Signika', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
+li:hover{
+    transition: 0.5s;
+    color: #435334;
+    background-color: #9EB384;
+    border-radius: 8px;
+}
+
+/*formatação das sessões*/
+
+#selection-banner{
+    width: 100%;
+    height: 50vh;
+    background-image: url(mancha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#section-cards{
+ width: 100%;
+ height: 60vh;
+ background-color: #9EB384;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.card{
+    width: 20%;
+    height: 60%;
+    border: 1px solid black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
