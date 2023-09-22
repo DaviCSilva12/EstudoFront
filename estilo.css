@@ -119,12 +119,31 @@ li:hover{
 
 #text-secao3{
     width: 40%;
+    height: 70%;
     font-family: 'Staatliches', cursive;
+    margin-left: 10%;
 }
 #img-secao3{
     align-items: flex-end;
+    margin-right: 10%;
     
 }
+#text-secao3 > h1{
+    font-family: 'Signika', sans-serif;
+    font-size: 2.5em;
+    
+}
+#text-secao3 >h2{
+    padding-top: 5%;
+}
+#text-secao3 >p{
+    padding-top: 5%;
+}
+hr{
+    border: 2px solid #435334;
+    
+}
+    
 
 
 
