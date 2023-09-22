@@ -15,7 +15,7 @@ header{
     background-color: #618264;
     border-bottom: solid #343434 2px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 nav{
